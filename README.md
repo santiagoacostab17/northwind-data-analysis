@@ -6,7 +6,6 @@ This project analyzes sales data from the Northwind database using SQL and Power
 ## Tools
 - MySQL
 - Power BI
-- Python
 
 ## Key Insights
 - Sales trends
@@ -15,5 +14,5 @@ This project analyzes sales data from the Northwind database using SQL and Power
 
 ## Author
 Santiago Acosta  
-Data Analyst | SQL | Python | Power BI  
-Open to remote opportunities in Europe
+Data Analyst | SQL | Power BI  
+
