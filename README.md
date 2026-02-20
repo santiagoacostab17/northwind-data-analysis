@@ -1,13 +1,19 @@
-# 📊 Northwind Sales Analysis Project
+# Northwind Sales Analysis Project
 
-## 📌 Overview
-This project analyzes the Northwind database using MySQL and Power BI to explore sales performance, customer behavior, and product profitability. The goal is to demonstrate SQL querying, data cleaning, and dashboard creation skills for business intelligence.
+## Overview
+This project analyzes sales data from the Northwind database using SQL and Power BI.
 
-## 🛠 Tools & Technologies
+## Tools
 - MySQL
-- Python (ETL)
 - Power BI
-- SQL
-- Git & GitHub
+- Python
 
-## 📂 Project Structure
+## Key Insights
+- Sales trends
+- Top products
+- Customer revenue analysis
+
+## Author
+Santiago Acosta  
+Data Analyst | SQL | Python | Power BI  
+Open to remote opportunities in Europe
