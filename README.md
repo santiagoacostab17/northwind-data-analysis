@@ -22,5 +22,5 @@ This project analyzes sales data from the Northwind database using SQL and Power
 ![Dashboard](PowerBI/dashboard.png)
 
 ## Author
-Santiago Acosta  
+Santiago Acosta Barriga
 Data Analyst | SQL | Power BI
