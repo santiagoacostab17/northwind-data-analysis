@@ -4,6 +4,6 @@ SELECT
     MONTH(o.order_date) AS month,
     SUM(od.unit_price * od.quantity * (1 - od.discount)) AS revenue
 FROM orders o
-JOIN order_details od ON o.order_id = od.order_id
+JOIN order_details od ON o.id = od.order_id
 GROUP BY year, month
 ORDER BY year, month;
