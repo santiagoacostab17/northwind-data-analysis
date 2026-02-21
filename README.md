@@ -6,7 +6,6 @@ This project analyzes sales data from the Northwind database using SQL and Power
 ## Tools
 - MySQL
 - Power BI
-- SQL
 
 ## Key KPIs
 - Total Sales
@@ -16,9 +15,8 @@ This project analyzes sales data from the Northwind database using SQL and Power
 
 ## Key Insights
 - Beverages and Seafood are the top revenue categories.
-- USA and Germany generate the highest sales volume.
-- Sales show an increasing trend over time.
-- A small group of employees generates most of the revenue.
+- Sales do not follow a clear pattern
+- The sales capacity of employees appears to vary linearly.
 
 ## Dashboard
 ![Dashboard](PowerBI/dashboard.png)
