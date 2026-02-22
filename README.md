@@ -71,6 +71,6 @@ northwind-sales-analysis/
 │   ├── dashboard.png
 │
 ├── data/
-│   ├── northwind_2006.csv
+│   ├── northwind_2006.sql
 │
 └── README.md
