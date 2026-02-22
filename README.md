@@ -1,27 +1,76 @@
-# Northwind 2006 First Half Sales Analysis
+# 📊 Northwind Sales Analysis – H1 2006
 
-## Overview
-This project analyzes sales data from the Northwind database (first half of 2006) using SQL and Power BI to identify business trends and key performance indicators.
+## 📌 Project Overview
+This project analyzes **Northwind Traders sales data for the first half of 2006** using SQL and Power BI.  
+The goal is to identify **sales performance trends, key business drivers, and operational insights** to support data-driven decision making.
 
-## Tools
-- MySQL
-- Power BI
+---
 
-## Key KPIs
-- Total Sales: $13M
-- Total Orders: 48
-- Total Customers: 29
-- Average Order Value (AOV): $268K
+## 🛠️ Tools & Technologies
+- MySQL (data extraction and transformation)
+- Power BI (data modeling and visualization)
+- SQL (aggregations, joins, KPIs)
 
-## Key Insights
-- Top Products: Northwind Traders Coffee, Clam Chowder, and Chocolate account for the highest sales (top 3 contributing ~64% of total sales).
-- Sales by Category: Beverages and Seafood are the main revenue contributors.
-- Monthly Trend: Sales show a peak in the middle of the semester, followed by a slight decrease toward the end of June.
-- Employee Performance: Sales by employee vary, with some employees contributing significantly more to total sales than others.
+---
 
-## Dashboard
-![Dashboard](PowerBI/dashboard.png)
+## 📈 Key Performance Indicators (KPIs)
 
-## Author
-Santiago Acosta Barriga
-Data Analyst | SQL | Power BI
+| Metric | Value |
+|--------|--------|
+| **Total Sales** | $13M |
+| **Total Orders** | 48 |
+| **Total Customers** | 29 |
+| **Average Order Value (AOV)** | $268K |
+
+---
+
+## 🔍 Key Business Insights
+
+### 🥇 Top Products
+- **Northwind Traders Coffee**
+- **Clam Chowder**
+- **Chocolate**
+
+➡️ These products represent ~64% of total revenue, indicating strong product concentration risk.
+
+---
+
+### 📦 Sales by Category
+- **Beverages** and **Seafood** are the top revenue-generating categories.
+- These categories should be prioritized for marketing and inventory strategies.
+
+---
+
+### 📅 Monthly Sales Trend
+- Sales peaked mid-semester and declined slightly toward the end of June.
+- This suggests possible **seasonality or declining demand**, requiring further investigation.
+
+---
+
+### 👩‍💼 Employee Performance
+- Sales contribution varies significantly by employee.
+- High-performing employees could be studied for best practices and training replication.
+
+---
+
+## 📊 Dashboard Preview
+![Power BI Dashboard](PowerBI/dashboard.png)
+
+---
+
+## 📂 Project Structure
+
+```bash
+northwind-sales-analysis/
+│
+├── sql/
+│   ├── northwind_queries.sql
+│
+├── PowerBI/
+│   ├── northwind_dashboard.pbix
+│   ├── dashboard.png
+│
+├── data/
+│   ├── northwind_2006.csv
+│
+└── README.md
