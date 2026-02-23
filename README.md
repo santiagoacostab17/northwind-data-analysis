@@ -9,7 +9,6 @@ The goal is to identify **sales performance trends, key business drivers, and op
 ## 🛠️ Tools & Technologies
 - MySQL (data extraction and transformation)
 - Power BI (data modeling and visualization)
-- SQL (aggregations, joins, KPIs)
 
 ---
 
