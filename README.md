@@ -67,7 +67,7 @@ northwind-sales-analysis/
 │
 ├── power_bi/
 │   ├── northwind_dashboard.pbix
-│   ├── dashboard.png
+│   ├── dashboard_preview.png
 │   ├── model_view.png
 │
 ├── data/
