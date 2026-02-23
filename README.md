@@ -54,7 +54,7 @@ The goal is to identify **sales performance trends, key business drivers, and op
 ---
 
 ## 📊 Dashboard Preview
-![Power BI Dashboard](PowerBI/dashboard.png)
+![Power BI Dashboard](power_bi/dashboard.png)
 
 ---
 
@@ -66,7 +66,7 @@ northwind-sales-analysis/
 ├── sql/
 │   ├── northwind_queries.sql
 │
-├── PowerBI/
+├── power_bi/
 │   ├── northwind_dashboard.pbix
 │   ├── dashboard.png
 │
