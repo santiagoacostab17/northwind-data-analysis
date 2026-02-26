@@ -50,8 +50,7 @@ These KPIs form the baseline for assessing **overall business health** and ident
 # 🖼 Data Visualization & Dashboard
 
 ### Power BI Dashboard Preview
-![Power BI Dashboard](power_bi
-/dashboard_preview.png)
+![Power BI Dashboard](power_bi/dashboard_preview.png)
 
 ### Model Overview
 - Star schema model with **fact_sales** at the center and dimension tables for **Products, Categories, Employees, Customers**  
