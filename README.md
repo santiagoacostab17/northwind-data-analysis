@@ -1,76 +1,77 @@
 # 📊 Northwind Sales Analysis – H1 2006
 
-## 📌 Project Overview
-This project analyzes **Northwind Traders sales data for the first half of 2006** using SQL and Power BI.  
-The goal is to identify **sales performance trends, key business drivers, and operational insights** to support data-driven decision making.
+## 📌 Executive Summary
+This repository presents a **comprehensive quantitative analysis of Northwind Traders sales data** for the first half of 2006.  
+The goal is to uncover **sales performance trends, product concentration risks, and employee-level operational insights** using SQL and Power BI.  
+
+> **Data Acquisition & Processing:**  
+> Raw Northwind sales data (H1 2006) was extracted from SQL databases, transformed using structured queries, and modeled in Power BI for visualization.  
+> All steps prioritize **data integrity, reproducibility, and clarity of metrics**, enabling actionable business intelligence.
 
 ---
 
-## 🛠️ Tools & Technologies
-- MySQL (data extraction and transformation)
-- Power BI (data modeling and visualization)
+# 🧠 Analysis Framework
 
----
-
-## 📈 Key Performance Indicators (KPIs)
-
+## 📈 Sales Performance Metrics
 | Metric | Value |
-|--------|--------|
-| **Total Sales** | $13M |
+|--------|-------|
+| **Total Revenue** | $13M |
 | **Total Orders** | 48 |
 | **Total Customers** | 29 |
 | **Average Order Value (AOV)** | $268K |
 
+These KPIs form the baseline for assessing **overall business health** and identifying areas of improvement.
+
 ---
 
-## 🔍 Key Business Insights
+## 🔍 Key Insights
 
 ### 🥇 Top Products
-- **Northwind Traders Coffee**
-- **Clam Chowder**
-- **Chocolate**
+- **Northwind Traders Coffee**  
+- **Clam Chowder**  
+- **Chocolate**  
 
-➡️ These products represent ~64% of total revenue, indicating strong product concentration risk.
+> These three products represent ~64% of total revenue, highlighting a **high product concentration risk** and emphasizing the need for diversification strategies.
 
----
-
-### 📦 Sales by Category
-- **Beverages** and **Seafood** are the top revenue-generating categories.
-- These categories should be prioritized for marketing and inventory strategies.
-
----
+### 📦 Category Performance
+- **Beverages** and **Seafood** generate the majority of revenue.  
+- Operational focus on **inventory optimization, marketing prioritization, and category-specific promotions** is recommended.
 
 ### 📅 Monthly Sales Trend
-- Sales peaked mid-semester and declined slightly toward the end of June.
-- This suggests possible **seasonality or declining demand**, requiring further investigation.
+- Sales peaked mid-semester and declined slightly by end of June.  
+- Suggests **potential seasonality or demand shifts**, warranting further trend and forecasting analysis.
+
+### 👩‍💼 Employee Contribution
+- Sales distribution varies significantly by employee.  
+- **Top-performing employees’ practices** could be standardized and replicated to improve overall team performance.
 
 ---
 
-### 👩‍💼 Employee Performance
-- Sales contribution varies significantly by employee.
-- High-performing employees could be studied for best practices and training replication.
+# 🖼 Data Visualization & Dashboard
 
----
-
-## 📊 Dashboard Preview
+### Power BI Dashboard Preview
 ![Power BI Dashboard](power_bi/dashboard.png)
 
+### Model Overview
+- Star schema model with **fact_sales** at the center and dimension tables for **Products, Categories, Employees, Customers**  
+- Enables fast, interactive exploration of metrics across time, products, and employee contributions.
+
 ---
 
-## 📂 Project Structure
+# ⚙️ Project Structure
 
 ```bash
 northwind-sales-analysis/
 │
 ├── sql/
-│   ├── northwind_queries.sql
+│   ├── northwind_queries.sql       # Data extraction & transformation queries
 │
 ├── power_bi/
-│   ├── northwind_dashboard.pbix
-│   ├── dashboard_preview.png
-│   ├── model_view.png
+│   ├── northwind_dashboard.pbix   # Interactive dashboard
+│   ├── dashboard_preview.png      # Dashboard screenshot
+│   ├── model_view.png             # Power BI data model visualization
 │
 ├── data/
-│   ├── northwind_2006.sql
+│   ├── northwind_2006.sql         # Raw dataset
 │
 └── README.md
