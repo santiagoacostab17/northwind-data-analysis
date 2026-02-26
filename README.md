@@ -49,6 +49,9 @@ These KPIs form the baseline for assessing **overall business health** and ident
 
 # 🖼 Data Visualization & Dashboard
 
+### Power BI Model View
+![Power BI Dashboard](power_bi/model_view.png)
+
 ### Power BI Dashboard Preview
 ![Power BI Dashboard](power_bi/dashboard_preview.png)
 
