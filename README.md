@@ -1,4 +1,4 @@
-# 📊 Northwind Sales Analysis – H1 2006
+# 📊 Northwind Revenue Insights – H1 2006
 
 ## 📌 Executive Summary
 This repository presents a **comprehensive quantitative analysis of Northwind Traders sales data** for the first half of 2006.  
